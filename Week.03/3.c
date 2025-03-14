@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code is used to find the number of digits in a number entered by the user
 int main()
 {
     int num,count;
