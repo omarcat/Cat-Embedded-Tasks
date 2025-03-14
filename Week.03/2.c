@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code is used to swap the contents of two variables using memory reference in functions
 int main()
 {
   int a=1,b=2;
