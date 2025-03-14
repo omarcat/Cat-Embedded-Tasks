@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code is used as a login system using a function
 int main()
 {
     int id,password,count=0;
