@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code is used to find febonacci series of a number entered by the user
 int main()
 {
     int n,count=0;
