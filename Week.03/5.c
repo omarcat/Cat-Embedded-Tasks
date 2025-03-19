@@ -3,22 +3,17 @@
 // this code is used to find febonacci series of a number entered by the user
 int main()
 {
-    int n,count=0;
+    int num;
     printf("enter a number ");
-    scanf("%d",&n);
-    printf("the febonacci series of number entered is: ");
-    while (count<n)
-    {
-        printf("%d ",febonacci(n));
-        count++;
-    }
+    scanf("%d",&num);
+    printf("fibonacci of %d is %d",num,fibonacci(num));
+    return 0;
+}
+int fibonacci(int n){
+
+if (n==0) return 0;
+if (n==1) return 1;
+return fibonacci(n-1)+fibonacci(n-2);
 
 }
-int febonacci(int n)
-{
-    if (n==0)
-        return 0;
-    else if (n==1)
-        return 1;
-    else return (febonacci(n-1)+febonacci(n-2));
-}
+
