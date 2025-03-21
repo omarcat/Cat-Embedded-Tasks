@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code takes 5 numbers from the user then prints the second biggest number
 int main()
 {
  int arr[5],count,max=0,secondmax=0;
@@ -16,5 +16,5 @@ int main()
     else if (arr[count]>secondmax && arr[5]<max)
         secondmax=arr[count];
  }
- printf("the biggest number is: %d ",secondmax);
+ printf("the second biggest number is: %d ",secondmax);
 }
