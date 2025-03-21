@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code takes 10 numbers from the user then prints the uniques elements 
 int main()
 {
     int arr[10],i,j,k,n=10;
