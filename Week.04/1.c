@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code takes 5 numbers from the user then sorts them either in ascending or descending order
 int main()
 {
   int arr[5],type,i,j,max;
