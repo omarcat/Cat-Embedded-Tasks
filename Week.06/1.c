@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code converts lowercase to uppercase in string 
 int main()
 {
   char arr[10] = "aBCdeFghI";
