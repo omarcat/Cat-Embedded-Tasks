@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+// this code finds the number of alphabets, digits and special characters in string
 int main()
 {
     char arr[10]="ab23C%$d&\n";
