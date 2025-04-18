@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+// this code reverses the string input 
 int main()
 {
    char arr[20];
